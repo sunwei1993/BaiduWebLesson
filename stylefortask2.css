@@ -1,0 +1,110 @@
+#header{
+    margin: 0px;
+    background:black;
+    height: 60px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+#header ul{
+    width: 25%;
+    float: right;
+    color: white;
+}
+#header ul li{
+    font-size: 10px;
+    width: 25%;
+    float: left;
+}
+#header ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.article{
+    border:2px solid darkgray;
+    margin: 20px;
+    background-color:white;
+    padding: 20px;
+    font-family: "Microsoft YaHei UI";
+    font-size: 15px;
+}
+.article h2{
+    font-family: 'Microsoft YaHei UI';
+    font-size: 22px;
+}
+.article h3{
+    font-weight: bold;
+    color: gray;
+}
+.article h4{
+    font-size: 10px;
+    color: gray;
+}
+
+.content{
+    text-indent: 2em;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.picture{
+    margin: 30px;
+    width: 300px;
+    height:250px ;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+.article table{
+    font-size: 10px;
+    height: 200px;
+    border-collapse: collapse;
+    width: 100%;
+}
+.article table td{
+    border: solid 1px gray;
+}
+.tablehead{
+    color: white;
+}
+
+#submitButton{
+    width: 100%;
+    background-color: dodgerblue;
+}
+
+.inputLoaction{
+    position: absolute;
+    left: 500px;
+}
+
+.inputDecoration{
+    position: absolute;
+    left: 500px;
+    color: gray;
+    display: block;
+    margin-top: 10px;
+}
+.article label{
+    display: inline-block;
+    width: 450px;
+    text-align: right;
+}
+
+.button{
+    border-radius: 5px;
+    border: 0px;
+    background-color: dodgerblue;
+    height: 30px;
+    width: 100%;
+    font-size: 16px;
+    color: white;
+}
+#footer{
+    height: 80px;
+    font-size: 13px;
+    background-color: black;
+    color: white;
+    line-height: 80px;
+    text-align: center;
+}
