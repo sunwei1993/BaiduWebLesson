@@ -1,0 +1,50 @@
+body{
+    padding: 20px;
+    font-family: 微软雅黑;
+    font-size: 15px;
+}
+div{
+    padding: 20px;
+    border: 1px solid #999;
+}
+#teamCard{
+    padding: 20px;
+    min-width: 600px;
+    overflow: auto;
+    margin: 0px auto;
+    background-color:#eee;
+}
+#teamLogo{
+    width: 160px;
+    float: left;
+    background-color: #fff;
+}
+.logoPicture{
+    float: left;
+}
+.teamName{
+    margin-left: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 80px;;
+}
+
+#teamMember{
+    float: right;
+    width: 80px;
+    background-color: #fff;
+}
+#midContent{
+    position: absolute;
+    left: 250px;
+    right: 190px;
+    background-color: #fff;
+}
+img{
+    height: 80px;
+    width: 80px;
+}
+.midPicture{
+    display: block;
+    margin-top: 20px;
+}
