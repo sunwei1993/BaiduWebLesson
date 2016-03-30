@@ -10,7 +10,7 @@ div{
 #teamCard{
     padding: 20px;
     min-width: 600px;
-    overflow: auto;
+    overflow: hidden;
     margin: 0px auto;
     background-color:#eee;
 }
@@ -35,9 +35,7 @@ div{
     background-color: #fff;
 }
 #midContent{
-    position: absolute;
-    left: 250px;
-    right: 190px;
+    margin: 0 140px 0 220px;
     background-color: #fff;
 }
 img{
