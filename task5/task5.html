@@ -3,19 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <title>任务二</title>
-    <link rel="stylesheet" type="text/css" href="task2/stylefortask2.css">
+    <link rel="stylesheet" type="text/css" href="task5.css">
 </head>
 <body style="margin: 0px" bgcolor="#cceeff">
 <div id="header">
-        <img src="../image/baidu_512px.png" height="36px" style="padding-left: 40px;padding-top: 12px; ">
-        <ul style="padding-top: 5px">
-            <li><a href="http://www.baidu.com">导航链接一</a></li>
-            <li><a href="http://www.baidu.com">导航链接二</a></li>
-            <li><a href="http://www.baidu.com">导航链接三</a></li>
-            <li><a href="http://www.baidu.com">导航链接四</a></li>
-        </ul>
+        <span>
+            <img src="../image/baidu_512px.png">
+        </span>
+        <nav>
+            <ul>
+                <li><a href="http://www.baidu.com">导航链接一</a></li>
+                <li><a href="http://www.baidu.com">导航链接二</a></li>
+                <li><a href="http://www.baidu.com">导航链接三</a></li>
+                <li><a href="http://www.baidu.com">导航链接四</a></li>
+            </ul>
+        </nav>
 </div>
-
+<aside>
+    <h3>这里以后是一个侧栏，这是侧栏的标题</h3>
+    <form action="" method="post">
+        <div>
+            <div class="input_message">请输入邮箱地址</div>
+            <input class="bot" type="email" placeholder="这是一个文本输入框"/>
+        </div>
+        <div class="demand">邮箱地址请按要求格式输入</div>
+        <div>
+            <div class="input_message">请输入密码</div>
+            <input class="bot" type="password" minlength="6" maxlength="16" pattern="[A-Za-z0-9\-]*" placeholder="这是一个文本输入框"/>
+        </div>
+        <div>
+            <div class="input_message">请重复输入密码</div>
+            <input class="bot" type="password" minlength="6" maxlength="16" pattern="[A-Za-z0-9\-]*" placeholder="这是一个文本输入框"/>
+        </div>
+        <div class="demand">密码请为6-16位英文数字</div>
+        <div>
+            <div class="input_messages">性别：</div>
+            <input type="radio" name="sex" id="man" checked="checked"/>
+            <label for="man">男</label>
+            <input type="radio" name="sex" id="woman"/>
+            <label for="woman">女</label>
+        </div>
+        <div>
+            <div class="input_messages">城市：</div>
+            <select>
+                <option value="BJ">北京</option>
+                <option value="SH">上海</option>
+                <option value="GZ">广州</option>
+            </select>
+        </div>
+        <div>
+            <div class="input_messages">爱好：</div>
+            <input type="checkbox" id="sport"/>
+            <label for="sport">运动</label>
+            <input type="checkbox" id="art"/>
+            <label for="art">艺术</label>
+            <input type="checkbox" id="science"/>
+            <label for="science">科学</label>
+        </div>
+        <div>
+            <div class="input_messages">个人描述：</div>
+            <textarea placeholder="这是一个多行输入框，输入您的个人描述"></textarea>
+        </div>
+        <div class="submit">
+            <input type="submit" value="确认提交"/>
+        </div>
+    </form>
+</aside>
 <div class="article">
     <h2>文章一级标题</h2>
     <h3 >文章二级标题</h3>
@@ -47,6 +100,34 @@
 
 <div class="article">
     <h2>图片</h2>
+    <div class="picture">
+        <p>好看的图片</p>
+        <img src="../image/极光.jpg">
+    </div>
+    <div class="picture">
+        <p>好看的图片</p>
+        <img src="../image/极光.jpg">
+    </div>
+    <div class="picture">
+        <p>好看的图片</p>
+        <img src="../image/极光.jpg">
+    </div>
+    <div class="picture">
+        <p>好看的图片</p>
+        <img src="../image/极光.jpg">
+    </div>
+    <div class="picture">
+        <p>好看的图片</p>
+        <img src="../image/极光.jpg">
+    </div>
+    <div class="picture">
+        <p>好看的图片</p>
+        <img src="../image/极光.jpg">
+    </div>
+    <div class="picture">
+        <p>好看的图片</p>
+        <img src="../image/极光.jpg">
+    </div>
     <div class="picture">
         <p>好看的图片</p>
         <img src="../image/极光.jpg">
@@ -92,49 +173,6 @@
             <td>总计</td><td colspan="2">1000</td>
         </tr>
     </table>
-</div>
-<div class="article">
-    <h3 style="color: black;border-left:2px solid gray;" >这里以后是一个侧栏，这是侧栏的标题</h3>
-    <form>
-        <label>请输入邮箱地址</label>
-        <input class="inputLoaction" type="email" placeholder="这是一个本文输入框">
-        <span class="inputDecoration">邮箱地址请按要求格式输入</span>
-        <br><br><br>
-        <label>请输入密码</label>
-        <input class="inputLoaction" type="password" placeholder="这是一个文本输入框">
-        <br><br>
-        <label>请重复输入密码</label>
-        <input class="inputLoaction" type="password" placeholder="这是一个文本输入框">
-        <span class="inputDecoration">密码请为6-16位英文和数字组合</span>
-        <br>
-        <br>
-        <br>
-        <label>性别</label>
-        <div class="inputLoaction" style="display: inline">
-            <input type="radio" name="sex" value="male" checked="checked">男
-            <input type="radio" name="sex" value="female">女
-        </div>
-        <br><br>
-        <label>城市</label>
-        <select class="inputLoaction">
-            <option value="北京">北京</option>
-            <option value="上海">上海</option>
-        </select>
-        <br><br>
-        <label >爱好</label>
-        <div class="inputLoaction" style="display: inline">
-            <input type="checkbox" value="sports">运动
-            <input type="checkbox" value="art">运动
-            <input type="checkbox" value="science">科学
-        </div>
-        <br><br>
-        <label>个人描述</label>
-        <div  class="inputLoaction" style="display: inline">
-            <textarea cols="5" style="width: 400px" placeholder="这是一个多行输入框，输入您的个人描述"></textarea>
-        </div>
-        <br><br><br>
-        <input class="button" type="submit" value="确认提交">
-    </form>
 </div>
 <div id="footer">版权所有&copy</div>
 </body>

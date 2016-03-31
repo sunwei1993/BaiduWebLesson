@@ -1,0 +1,163 @@
+body{
+    min-width: 780px;
+}
+#header{
+    margin: 0px;
+    background:#333333;
+    height: 60px;
+    width: 100%;
+    padding-top: 5px;
+    display: table;
+    vertical-align: middle;
+}
+#header ul{
+    width: 25%;
+    float: right;
+    color: black;
+    padding-top: 5px;
+    min-width: 300px;
+}
+#header span{
+    display: table-cell;
+    vertical-align: middle;
+}
+#header span img{
+    cursor: pointer;
+    height: 35px;
+    margin-left: 35px;
+}
+#header ul li{
+    font-size: 10px;
+    width: 25%;
+    float: left;
+}
+#header ul li a{
+    color: white;
+    text-decoration: none;
+}
+#header ul li a:hover{
+    color: gray;
+}
+.article{
+    border:2px solid darkgray;
+    margin: 20px 410px 40px 20px;
+    background-color:white;
+    padding: 20px;
+    font-family: "Microsoft YaHei UI";
+    font-size: 15px;
+    box-shadow: 2px 2px 10px #848484;
+}
+.article h2{
+    font-family: 'Microsoft YaHei UI';
+    font-size: 22px;
+}
+.article h3{
+    font-weight: bold;
+    color: gray;
+}
+.article h4{
+    font-size: 10px;
+    color: gray;
+}
+
+.content{
+    text-indent: 2em;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.picture{
+    display: inline-block;
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid gray;
+}
+.picture img{
+    width: 200px;
+    height: 130px;
+}
+
+.article table{
+    font-size: 10px;
+    height: 200px;
+    border-collapse: collapse;
+    width: 100%;
+}
+.article table td{
+    border: solid 1px gray;
+}
+.tablehead{
+    color: white;
+}
+
+aside{
+    width: 330px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    border:2px solid darkgray;
+    background-color:white;
+    padding: 20px;
+    font-family: "Microsoft YaHei UI";
+    font-size: 13px;
+    box-shadow: 2px 2px 10px #848484;
+}
+aside h3{
+    color: black;
+    border-left:2px solid gray;
+    font-size: 18px;
+}
+form{
+    width: 100%;
+    min-width: 300px;
+    line-height: 3em;
+}
+.bot{
+    vertical-align: middle;
+}
+.input_message{
+    font-weight: 600;
+    height: 15px;
+    line-height: 15px;
+    display: inline-block;
+    width:30%;
+    text-align: right;
+    margin-right: 5px;
+}
+.input_messages{
+    font-weight: 600;
+    height: 15px;
+    line-height: 15px;
+    display: inline-block;
+    width:30%;
+    text-align: right;
+}
+.demand{
+    margin-left: 31%;
+}
+.submit input{
+    width: 100%;
+    height: 30px;
+    border-radius: 9px;
+    border: 0;
+    background-color: #56a7ff;
+    font-weight: 800;
+    color: white;
+}
+.button{
+    border-radius: 5px;
+    border: 0px;
+    background-color: dodgerblue;
+    height: 30px;
+    width: 100%;
+    font-size: 16px;
+    color: white;
+}
+#footer{
+    height: 80px;
+    font-size: 13px;
+    background-color: black;
+    color: white;
+    line-height: 80px;
+    text-align: center;
+}
